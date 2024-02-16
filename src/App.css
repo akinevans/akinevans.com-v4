@@ -10,5 +10,11 @@
   --accent: #1b1b1d;
 
   /* Fonts */
-  --title: Inter;
+  --inter: Inter;
+
+  /* Font Sizes */
+  --navSize: 1.125rem;
+  --titleSize: 3.2rem;
+  --subTitleSize: 1.438rem;
+  --bodySize: 1.25rem;
 }

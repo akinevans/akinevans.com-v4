@@ -10,7 +10,13 @@ module.exports = {
         tertiary: "var(--tertiary)",
       },
       fontFamily: {
-        title: "var(--title)",
+        inter: "var(--inter)",
+      },
+      fontSize: {
+        navSize: "var(--navSize)",
+        titleSize: "var(--titleSize)",
+        subTitleSize: "var(--subTitleSize)",
+        bodySize: "var(--bodySize)",
       },
     },
   },
