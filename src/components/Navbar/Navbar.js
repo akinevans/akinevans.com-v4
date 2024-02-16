@@ -9,10 +9,18 @@ export default function Navbar() {
       <a href=''>
         <span className='text-tertiary mr-[12px]'>2.</span>Projects
       </a>
-      <a href=''>
+      <a
+        href='https://github.com/akinevans'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <span className='text-tertiary mr-[12px]'>3.</span>Github
       </a>
-      <a href=''>
+      <a
+        href='https://www.linkedin.com/in/akinevans/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <span className='text-tertiary mr-[12px]'>4.</span>LinkedIn
       </a>
       <a href=''>

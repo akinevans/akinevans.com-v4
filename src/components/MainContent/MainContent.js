@@ -9,17 +9,17 @@ export default function MainContent() {
         <img
           src={self}
           alt='akin'
-          className='photo max-w-[320px] max-h-[481.5px]'
+          className='photo max-w-[320px] max-h-[481.5px] select-none'
         />
 
-        <section className='text-content flex flex-col justify-center items-start max-w-[388px]'>
-          <h1 className='font-inter text-titleSize'>
+        <section className='text-content flex flex-col justify-start items-start max-w-[388px] h-[481.5px] '>
+          <h1 className='mt-16 font-inter text-titleSize font-bold'>
             Akin <span>Evans</span>
           </h1>
-          <h2 className='font-inter text-subTitleSize mb-16'>
-            <span>Front-End</span> Developer
+          <h2 className='font-inter text-subTitleSize mb-10 uppercase leading-4 tracking-tighter'>
+            <span className='text-tertiary'>Front-End</span> Developer
           </h2>
-          <p className='font-inter text-bodySize leading-6'>
+          <p className='font-inter text-bodySize leading-6 tracking-tight select-none'>
             Throughout my career, I have honed my expertise in web development,
             tech support, and assisting others. With over a decade of experience
             in customer service, I have cultivated strong problem-solving
