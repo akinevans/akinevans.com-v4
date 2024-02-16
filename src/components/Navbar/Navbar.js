@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className='nav-wrapper flex flex-col gap-16 w-fit h-[500px] max-h-[500px] font-inter text-secondary font-bold text-navSize'>
+    <nav className='nav-wrapper flex flex-col gap-16 w-fit h-[500px] max-h-[500px] mr-4 font-inter text-secondary font-bold text-navSize'>
       <a href=''>
         <span className='text-tertiary mr-[12px]'>1.</span>About
       </a>

@@ -9,7 +9,7 @@ export default function MainContent() {
         <img
           src={self}
           alt='akin'
-          className='photo max-w-[320px] max-h-[481.5px] select-none'
+          className='photo w-[100%] h-[100%] max-w-[320px] max-h-[481.5px] select-none'
         />
 
         <section className='text-content flex flex-col justify-start items-start max-w-[388px] h-[481.5px] '>
