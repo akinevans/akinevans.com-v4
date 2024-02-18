@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "../Projects/Projects";
+
 import self from "../../assets/self.webp";
 
 export default function About() {
