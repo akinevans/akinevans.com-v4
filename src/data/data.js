@@ -1,4 +1,4 @@
-import cafe from "../assets/nyleta.jpg";
+import cafe from "../assets/nyleta.webp";
 import social from "../assets/socialsync.webp";
 
 export const projectData = [

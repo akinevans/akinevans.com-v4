@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function ProjectItem(props) {
   return (
-    <div className='project-item-wrapper flex flex-row w-[100%] h-[100%] mb-10 pb-10  border-b-2 '>
+    <div className='project-item-wrapper flex flex-row w-[100%] h-[100%] mb-10 pb-10  border-b-2 border-neutral-500 border-opacity-10 '>
       <Link
         to={props.linkDestination}
         target='_blank'
@@ -15,7 +15,7 @@ export default function ProjectItem(props) {
           className='max-w-[550px] float-end'
         />
       </Link>
-      <div className='project-text-section flex flex-col justify-start items-start ml-4'>
+      <div className='project-text-section flex flex-col justify-start items-start ml-4 font-inter'>
         <div className='links-wrapper flex flex-col mb-4'>
           <Link
             className='underline'
@@ -34,12 +34,12 @@ export default function ProjectItem(props) {
             Github Repo
           </Link>
         </div>
-        <h1 className='text-bodySize font-inter font-semibold text-secondary'>
+        <h1 className='text-subTitleSize font-inter font-semibold text-secondary'>
           {props.projectTitle}
         </h1>
-        <p className='mb-2'>{props.projectDescription}</p>
+        <p className='mb-6 '>{props.projectDescription}</p>
 
-        <h2 className='mt-2 text-navSize font-inter font-semibold text-secondary'>
+        <h2 className='mt-2 text-bodySize font-inter font-semibold text-secondary'>
           Tech Stack
         </h2>
         <p>{props.stack1}</p>
