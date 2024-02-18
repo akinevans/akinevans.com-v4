@@ -8,6 +8,7 @@ module.exports = {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         tertiary: "var(--tertiary)",
+        accent: "var(--accent)",
       },
       fontFamily: {
         inter: "var(--inter)",

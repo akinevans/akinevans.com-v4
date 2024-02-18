@@ -14,9 +14,12 @@ export default function MainContent() {
 
         <section className='text-content flex flex-col justify-start items-start max-w-[388px] h-[481.5px] '>
           <h1 className='mt-16 font-inter text-titleSize font-bold'>
-            Akin <span>Evans</span>
+            Akin{" "}
+            <span className='ml-[-5px]  text-primary px-1 bg-accent'>
+              Evans
+            </span>
           </h1>
-          <h2 className='font-inter text-subTitleSize mb-10 uppercase leading-4 tracking-tighter'>
+          <h2 className='font-inter text-subTitleSize font-semibold mb-10 uppercase leading-4 '>
             <span className='text-tertiary'>Front-End</span> Developer
           </h2>
           <p className='font-inter text-bodySize leading-6 tracking-tight select-none'>
