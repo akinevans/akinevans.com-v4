@@ -2,10 +2,10 @@ import React from "react";
 import Projects from "../Projects/Projects";
 import self from "../../assets/self.webp";
 
-export default function MainContent() {
+export default function About() {
   return (
     <div className='all-content-wrapper flex flex-col justify-start items-center  max-h-[500px] overflow-y-scroll no-scrollbar'>
-      <div className='main-content-wrapper flex flex-row justify-between items-center gap-20 w-[100%] h-[100%] min-h-[500px]'>
+      <div className='about-wrapper flex flex-row justify-between items-center gap-20 w-[100%] h-[100%] min-h-[500px]'>
         <img
           src={self}
           alt='akin'
