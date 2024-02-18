@@ -4,7 +4,7 @@ import { projectData } from "../../data/data";
 
 export default function Projects() {
   return (
-    <div className='projects-wrapper flex flex-col w-[100%] h-fit max-h-[750px] overflow-y-scroll no-scrollbar'>
+    <div className='projects-wrapper flex flex-col w-[100%] h-fit max-h-[850px] overflow-y-scroll no-scrollbar'>
       {projectData.map((data) => (
         <ProjectItem
           imageSource={data.src}

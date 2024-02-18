@@ -27,7 +27,10 @@ export default function Navbar() {
         <span className=''>1.</span>
         <Link
           to='/'
-          className={`mx-[12px] py-1 px-2 ${setActiveStyling("/", activeLink)}`}
+          className={`mx-[12px] py-1 px-2 transition ease-in-out delay-100  ${setActiveStyling(
+            "/",
+            activeLink
+          )}`}
           onClick={() => {
             setActiveLink("/");
           }}
@@ -40,7 +43,7 @@ export default function Navbar() {
         <span className=''>2.</span>
         <Link
           to='/projects'
-          className={`mx-[12px] py-1 px-2 ${setActiveStyling(
+          className={`mx-[12px] py-1 px-2 transition ease-in-out delay-100 ${setActiveStyling(
             "/projects",
             activeLink
           )}`}

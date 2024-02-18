@@ -1,4 +1,5 @@
 import cafe from "../assets/nyleta.jpg";
+import social from "../assets/socialsync.webp";
 
 export const projectData = [
   {
@@ -18,20 +19,16 @@ export const projectData = [
     githubLink: "https://github.com/akinevans/cafe-nyleta",
   },
   {
-    src: cafe,
-    title: "Cafe Nyleta",
-    link: "https://cafe-nyleta.netlify.app/",
+    src: social,
+    title: "Social Sync",
+    link: "https://akinevans.github.io/socialsync/",
     description:
-      "E-commerce website developed using React, JavaScript, Redux, Strapi CMS, Axios, SASS, Framer Motion, and HTML.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, quisquam maxime laboriosam ut adipisci facere blanditiis, impedit, suscipit in aperiam cumque esse reprehenderit beatae cupiditate.",
     stack1: "React",
     stack2: "JavaScript",
-    stack3: "Redux",
-    stack4: "Strapi CMS",
-    stack5: "Axios",
-    stack6: "SASS",
-    stack7: "Framer Motion",
-    stack8: "HTML",
-    githubLink: "https://github.com/akinevans/cafe-nyleta",
+    stack3: "CSS",
+    stack4: "Framer Motion",
+    githubLink: "https://github.com/akinevans/socialsync",
   },
   {
     src: cafe,
