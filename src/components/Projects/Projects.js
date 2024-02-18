@@ -2,11 +2,9 @@ import React from "react";
 import ProjectItem from "../ProjectItem/ProjectItem";
 import { projectData } from "../../data/data";
 
-//& individual project components within?
-
 export default function Projects() {
   return (
-    <div className='projects-wrapper flex flex-col w-[100%] h-fit max-h-[700px] overflow-y-scroll no-scrollbar'>
+    <div className='projects-wrapper flex flex-col w-[100%] h-fit max-h-[750px] overflow-y-scroll no-scrollbar'>
       {projectData.map((data) => (
         <ProjectItem
           imageSource={data.src}
