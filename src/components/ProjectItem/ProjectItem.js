@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function ProjectItem(props) {
   return (
-    <div className='project-item-wrapper flex flex-row w-[100%] h-[100%] mb-10 pb-10  border-b-2 border-neutral-500 border-opacity-10 '>
+    <div className='project-item-wrapper flex flex-row justify-between items-center w-[100%] h-[100%] mb-10 pb-10  border-b-2 border-neutral-500 border-opacity-10'>
       <Link
+        className='w-[70%]'
         to={props.linkDestination}
         target='_blank'
         rel='noopener noreferrer'
@@ -12,10 +13,10 @@ export default function ProjectItem(props) {
         <img
           src={props.imageSource}
           alt='website'
-          className='max-w-[550px] float-end'
+          className='max-w-[550px] w-[100%] float-end'
         />
       </Link>
-      <div className='project-text-section flex flex-col justify-start items-start ml-4 font-inter'>
+      <div className='project-text-section flex flex-col justify-start items-start w-[30%] min-w-[210px] ml-3 font-inter'>
         <div className='links-wrapper flex flex-col mb-4'>
           <Link
             className='underline'

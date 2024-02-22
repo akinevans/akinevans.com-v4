@@ -2,6 +2,8 @@ import cafe from "../assets/nyleta.webp";
 import social from "../assets/socialsync.webp";
 import syne from "../assets/syne.webp";
 
+//TODO: Write descriptions for each entry
+
 export const projectData = [
   {
     src: cafe,
@@ -18,6 +20,8 @@ export const projectData = [
     stack7: "Framer Motion",
     stack8: "HTML",
     githubLink: "https://github.com/akinevans/cafe-nyleta",
+    participant1: "Akin Evans - Front-End Dev",
+    participant2: "Kevin Do - UI Designer",
   },
   {
     src: syne,
@@ -50,5 +54,7 @@ export const projectData = [
     stack3: "CSS",
     stack4: "Framer Motion",
     githubLink: "https://github.com/akinevans/socialsync",
+    participant1: "Akin Evans - Front-End Dev",
+    participant2: "Mahmudul Hasan - UI Designer",
   },
 ];

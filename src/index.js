@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <HashRouter>
-      <div className='outer-app-wrapper flex justify-center items-center w-[100vw] h-[100vh] bg-primary'>
-        <div className='inner-app-wrapper flex flex-row-reverse justify-between items-center gap-20 max-w-[1000px] h-auto m-auto '>
+      <div className='outer-app-wrapper flex justify-center items-center w-[100%] h-[100vh] bg-primary'>
+        <div className='inner-app-wrapper flex flex-row-reverse justify-between items-center gap-20 w-fit max-w-[1000px] h-auto m-auto '>
           <Navbar />
           <App />
         </div>{" "}
