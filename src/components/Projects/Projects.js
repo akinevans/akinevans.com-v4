@@ -20,6 +20,14 @@ export default function Projects() {
           stack7={data.stack7}
           stack8={data.stack8}
           githubLink={data.githubLink}
+          participant1={data.participant1}
+          participant2={data.participant2}
+          participant3={data.participant3}
+          participant4={data.participant4}
+          participant5={data.participant5}
+          participant6={data.participant6}
+          participant7={data.participant7}
+          participant8={data.participant8}
         />
       ))}
     </div>

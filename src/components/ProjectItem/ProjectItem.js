@@ -37,7 +37,7 @@ export default function ProjectItem(props) {
         <h1 className='text-subTitleSize font-inter font-semibold text-secondary'>
           {props.projectTitle}
         </h1>
-        <p className='mb-6 '>{props.projectDescription}</p>
+        <p className='mb-4 '>{props.projectDescription}</p>
 
         <h2 className='mt-2 text-bodySize font-inter font-semibold text-secondary'>
           Tech Stack
@@ -50,6 +50,22 @@ export default function ProjectItem(props) {
         <p>{props.stack6}</p>
         <p>{props.stack7}</p>
         <p>{props.stack8}</p>
+
+        <h3
+          className={`mt-6 text-navSize font-inter font-semibold text-secondary ${
+            props.participant1 ? "" : "hidden"
+          }`}
+        >
+          Participants
+        </h3>
+        <p className='text-sm'>{props.participant1}</p>
+        <p className='text-sm'>{props.participant2}</p>
+        <p className='text-sm'>{props.participant3}</p>
+        <p className='text-sm'>{props.participant4}</p>
+        <p className='text-sm'>{props.participant5}</p>
+        <p className='text-sm'>{props.participant6}</p>
+        <p className='text-sm'>{props.participant7}</p>
+        <p className='text-sm'>{props.participant8}</p>
       </div>
     </div>
   );

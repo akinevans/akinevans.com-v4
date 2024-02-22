@@ -22,7 +22,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className='nav-wrapper flex flex-col gap-16 w-fit h-[500px] max-h-[500px] mr-4 font-inter text-secondary font-bold text-navSize'>
+    <nav className='nav-wrapper flex flex-col gap-14 w-fit h-[500px] max-h-[500px] mr-4 font-inter text-secondary font-bold text-navSize'>
       <div className='link-wrapper flex flex-row justify-start items-center'>
         <span className=''>1.</span>
         <Link
